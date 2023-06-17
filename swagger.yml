@@ -1,0 +1,5 @@
+openapi: 3.0.0
+info:
+  title: "RP Flask REST api"
+  description: "An api about people and notes"
+  version: "1.0.0"
