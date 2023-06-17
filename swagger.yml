@@ -20,12 +20,13 @@ components:
         lname:
           type: "string"
   parameters:
-    lname: "lname"
-    description: "Last name of the person to get"
-    in: path
-    required: True
-    schema:
-      type: "string"
+    lname:
+      name: "lname"
+      description: "Last name of the person to get"
+      in: path
+      required: True
+      schema:
+        type: "string"
 
 paths:
   /people:
