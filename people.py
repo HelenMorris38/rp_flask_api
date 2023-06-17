@@ -70,5 +70,5 @@ def delete(lname):
         else:
             abort(
                 404,
-                f"PErson with last name {lname} not found"
+                f"Person with last name {lname} not found"
             )
