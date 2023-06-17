@@ -3,3 +3,15 @@ info:
   title: "RP Flask REST api"
   description: "An api about people and notes"
   version: "1.0.0"
+servers:
+  - url: "/api"
+paths:
+  /people:
+    get:
+      operationId: "people.read_all"
+      tags:
+        - "People"
+      summary: "Read the list of people"
+      responses:
+        "200":
+          description: "Successfully read people list"
